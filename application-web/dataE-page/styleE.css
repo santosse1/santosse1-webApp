@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to right, #7f808acb, #0026ffbd );
+
+}
+.logo{
+    background-color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+}
+.searchbar-size{
+    position: relative;
+    width: 1040px;
+}
+.bg-form{
+    position: relative;
+    top: 25px;
+    background-color: rgb(141, 141, 141);
+}
+.dE-h2{
+    position: relative;
+    font-style: italic;
+    color: white;
+}
+.bg-dE-h2{
+    position: relative;
+    width: 24%;
+    height: 50px;
+    border: 2px solid #ffffff;
+    background: #0c36aae3;
+    border-top-right-radius: 29px;
+    border-bottom-left-radius: 29px;
+}
+.table{
+    background-color: white;
+    width: 1040px;
+}
+.thead-tr{
+    background-color: black;
+
+}
+.thead-td{
+    color: white;
+}

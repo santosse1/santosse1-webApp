@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-page</title>
+    <link rel="icon" href="32.32png.png" sizes="32x32" />
+    <link rel="icon" href="192.192png.png" sizes="192x192" />
+    <link rel="apple-toutch-icon" href="180.180png.png" />
+    <meta name="msapplication-TitleImage" centent="" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        #box-user{
+        position: relative;
+        top: -27px;
+        right: -230px;
+        font-size: 20px;
+
+        }
+        #box-lock{
+        position: relative;
+        top: -27px;
+        right: -230px;
+        font-size: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-blue-400 h-screen w-screen">
+        <div class="flex flex-col items-center flex-1 h-full justify-center px-4 sm:px-0">
+            <div class="flex rounded-lg shadow-lg w-full sm:w-3/4 lg:w-1/2 bg-white sm:mx-0" style="height: 500px">
+                <div class="flex flex-col w-full md:w-1/2 p-4">
+                    <div class="flex flex-col flex-1 justify-center mb-8">
+                        <img src="logo.png" class="text-4xl text-center font-thin"  width="290" style="position: relative;left:1em;top:-1em;"/>
+                        <div class="w-full mt-4">
+                            <form class="form-horizontal w-3/4 mx-auto" method="post" action="login.php">
+                                <div class="flex flex-col mt-4">
+                                    <input id="email" type="text" class="flex-grow h-8 px-2 border rounded border-grey-400" name="email" value="" placeholder="User">
+                                </div>
+                                <div class="flex flex-col mt-4">
+                                    <input id="password" type="password" class="flex-grow h-8 px-2 rounded border border-grey-400" name="password" required placeholder="Mot de Passe">
+                                </div>
+                                <br>
+                                <div class="flex flex-col mt-8">
+                                    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white text-sm font-semibold py-2 px-4 rounded">
+                                        Login
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:block md:w-1/2 rounded-r-lg" style="background: url('https://images.unsplash.com/photo-1515965885361-f1e0095517ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80'); background-size: cover; background-position: center center;"></div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js"></script>
+</body>
+</html>
